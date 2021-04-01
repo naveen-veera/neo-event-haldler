@@ -1,0 +1,14 @@
+p {
+    font-family: Lato;
+  }
+  .input-container {
+    margin: 5% 30%;
+  }
+  select {
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid #5f27cd;
+    border-radius: 5px;
+    outline: none;
+  }
+  

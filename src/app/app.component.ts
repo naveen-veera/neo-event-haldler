@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'event-handler';
+  country: string;
+  state: boolean = false;
+
+  getValue(value: any): void {
+    this.country = value;
+  }
 }
